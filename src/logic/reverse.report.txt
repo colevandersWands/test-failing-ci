@@ -1,7 +1,7 @@
 reverseLogic reverses a string
   √ PASS: "toads" -> "sdaot"
   ✖ FAIL: "sdaot" -> "toads"
-    AssertionError: expected 'toads' to equal 'tads'
+    AssertionError: expected 'toads' to equal 'tods'
         at file:// [ ... ] /src/logic/reverse.spec.js:13:38
         at it (file:// [ ... ] /lib/describe-it.js:97:11)
         at file:// [ ... ] /src/logic/reverse.spec.js:12:3
@@ -9,6 +9,6 @@
         at file:// [ ... ] /src/logic/reverse.spec.js:8:1
         at ModuleJob.run (internal/modules/esm/module_job.js:146:23)
         at async Loader.import (internal/modules/esm/loader.js:165:24)
-        at async testFolder (file:// [ ... ] /lib/test.js:61:7)
-        at async testFolder (file:// [ ... ] /lib/test.js:34:7)
+        at async testFolder (file:// [ ... ] /lib/test.js:62:7)
+        at async testFolder (file:// [ ... ] /lib/test.js:35:7)
 
