@@ -4,14 +4,12 @@
 name: Node.js CI
 
 on:
-  push:
-    branches: [master, main]
   pull_request:
     branches: [master, main]
 
 jobs:
   document-and-test:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
 
     strategy:
       matrix:
@@ -42,7 +40,7 @@ jobs:
           commit_message: documenting
           branch: ${{ github.head_ref }}
 
-      - run: npm run test
+      - run: npm run test-ci
         env:
           CI: true
 
