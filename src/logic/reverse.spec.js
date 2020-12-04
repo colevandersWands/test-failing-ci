@@ -10,6 +10,6 @@ describe('reverseLogic reverses a string', () => {
     expect(reverseLogic('toads')).to.equal('sdaot');
   });
   it('"sdaot" -> "toads"', () => {
-    expect(reverseLogic('sdat')).to.equal('toads');
+    expect(reverseLogic('sdot')).to.equal('tads');
   });
 });
