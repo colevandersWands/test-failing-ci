@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "document": "node ./lib/document.js ../src ../DOCS.md",
-    "test": "node ./lib/test.js ../src"
+    "test": "node ./lib/test.js ../src",
+    "test-ci": "node ./lib/test.js ../src CI"
   },
   "type": "module",
   "repository": {
